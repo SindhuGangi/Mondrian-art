@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+    .container{
+      border:1px solid black;
+      height:560px;
+      width: 950px;
+      background-color:#000;
+      display: grid;
+      grid-template-rows: repeat(7,67.98px);
+      grid-template-columns:repeat(2,148px) repeat(7, minmax(77px,1fr));
+      gap:14px;
+      
+    }
+    .box{
+      background-color: #aa2a1b;
+
+    }
+       .box1{
+        background-color: #d9e1de;
+    }
+    .box2{
+       background-color: #ede4d9; 
+       grid-column-end:span 2 ;
+    }
+    .box3{
+        background-color: #fadc6c; 
+       grid-column-end:span 2 ;
+    }
+    .box4{
+        background-color: #fefff0;
+        grid-row-end:span 6;
+    }
+    .box5{
+        background-color: #fefff0;
+        grid-row-end:span 2;
+    }
+    .box6{
+        background-color: #fadc6c; 
+       grid-area:1/8/3/10;
+
+    } 
+    .box7{
+         grid-area:2/1/6/3;
+    }
+    .box8{
+         background-color: #d9e1de;
+         grid-row-end:span 3;
+    }
+    .box9{
+        background-color: #ede4d9; 
+       grid-row-end:span 2 ;
+    }
+    .box10{
+        background-color: #ede4d9; 
+       grid-row-end:span 2 ;
+    }
+    .box11{
+        background-color: #17080d;
+         grid-area:3/-4/-4/-2;
+    }
+    .box12{
+        background-color: #fadc6c; 
+         grid-row-end:span 3;
+    }
+    .box13{
+        background-color: #b9bab8;
+         grid-area:4/4/5/6;
+    }
+    .box14{
+        background-color: #b9bab8;
+        grid-area:5/7/6/9;
+    }
+    .box15{
+        background-color: #d9e1de;
+        grid-area:5/3/6/5;
+    }
+    .box16{
+        background-color: #1d20a5;
+        grid-row: 6/8;
+    }
+    .box17{
+        background-color:#d0d1c8;
+        grid-area:6/2/8/3;
+    }
+    .box18{
+        background-color: #050203;
+        grid-area:6/3/7/5;
+    }
+    .box19{
+        background-color: #aa2a1b;
+        grid-row: 5/8;
+
+    }
+    .box20{
+        background-color: #1c1b1b;
+        grid-area:6/7/7/10;
+    }
+    .box21{
+        background-color: #1c1b1b;
+        grid-area:7/3/8/5;
+        
+    }
+    .box22{
+        background-color:#d0d1c8;
+        grid-column:6/10;
+    }
+</style
+<body>
+<!-- div.box$*63 -->
+     <div class="container">
+     <div class="box box1"></div>
+     <div class="box box2"></div>
+     <div class="box box3"></div>
+     <div class="box box4"></div>
+     <div class="box box5"></div>
+     <div class="box box6"></div>
+     <div class="box box7 "></div>
+     <div class="box box8"></div>
+     <div class="box box9"></div>
+     <div class="box box10"></div>
+     <div class="box box11"></div>
+     <div class="box box12"></div>
+     <div class="box box13"></div>
+     <div class="box box14"></div>
+     <div class="box box15"></div>
+     <div class="box box16"></div>
+     <div class="box box17"></div>
+     <div class="box box18"></div>
+     <div class="box box19"></div>
+     <div class="box box20"></div>
+     <div class="box box21"></div>
+     <div class="box box22"></div>
+      
+     </div>
+ 
+</body>
+
+</html>
